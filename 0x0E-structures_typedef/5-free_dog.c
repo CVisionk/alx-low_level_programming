@@ -5,8 +5,6 @@
  * @d: pointer to dog struct.
  *
  * Return: void.
- * Author: Jaba
- * Date: Aug 29 2022 @KP7B -21 room(2nd F)
  */
 void free_dog(dog_t *d)
 {

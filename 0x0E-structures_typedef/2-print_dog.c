@@ -7,8 +7,6 @@
  * @d: pointer to the struct dog
  *
  * Return: void
- * Author: Jaba
- * Date: Aug 29 2022 @KP10B
  */
 void print_dog(struct dog *d)
 {

@@ -8,8 +8,6 @@
  * @owner: pointer to owner of dog
  *
  * Return: pointer to struct dog_t
- * Author: Jaba
- * Date: Aug 29 2022 @kp 10b
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
