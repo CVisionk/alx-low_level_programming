@@ -16,8 +16,11 @@ int sum_them_all(const unsigned int n, ...)
     int num;
 
     va_start(arg_ptr, n);
+    if(n==0){
+	return;
+    }
 
-  for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
 	{                                                                          
       num = va_arg(arg_ptr, int);
       sum += num;                                     
