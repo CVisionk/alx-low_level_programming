@@ -3,28 +3,35 @@
 #include <stdarg.h>
 
 /**
- * print_strings - Prints strings, followed by a new line.
- * @separator: The string to be printed between strings.
- * @n: The number of strings passed to the function.
- * @...: A variable number of strings to be printed.
- *
- * Description: If separator is NULL, it is not printed.
- *              If one of the strings if NULL, (nil) is printed instead.
- */
-void print_strings(const char *separator, const unsigned int n, ...) {
-    va_list arg_ptr;
+  * print_strings - prints strings followed by a new line.
+  * @separator: string to be printed between strings.
+  * @n: number of strings.
+  *
+  * Return: void
+  */
+void print_strings(const char *separator, const unsigned int n, ...)
+{
+	unsigned int i;
+	char *s;
+	va_list strings;
 
-    va_start(arg_ptr, n);
-    for (int i = 0; i < n; i++) {
-        const char *str = va_arg(arg_ptr, const char*);
+	if (separator == NULL)
+		separator = "";
 
-        if (i > 0 && separator != NULL) {
-            printf("%s", separator);
-        }
+	va_start(strings, n);
 
-        printf("%s", str);
-    }
-    va_end(arg_ptr);
+	for (i = 0; i < n; i++)
+	{
+		s = va_arg(strings, char *);
 
-    printf("\n"); // Add a newline character at the end
+		if (s == NULL)
+			s = "(nil)";
+		printf("%s", s);
+		if (i < n - 1)
+			printf("%s", separator);
+	}
+	printf("\n");
+	va_end(strings);
 }
+
+
