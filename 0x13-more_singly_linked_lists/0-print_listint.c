@@ -1,14 +1,37 @@
 #include "lists.h"
-
+// Include your header file where listint_t is defined
 
 size_t print_listint(const listint_t *h) {
     int n_nodes = 0;
 
     while (h != NULL) {
-            printf("%d\n", h->n);
+        // Convert integer value to a string
+        int num = h->n;
+        char buffer[20]; // Assuming a maximum of 20 digits for the integer
+        
+        // Handle negative numbers
+        if (num < 0) {
+            _putchar('-');
+            num = -num;
+        }
+        
+        int i = 0;
+        do {
+            buffer[i++] = num % 10 + '0'; // Convert digit to character
+            num /= 10;
+        } while (num != 0);
+        
+        // Print digits in reverse order
+        while (i > 0) {
+            _putchar(buffer[--i]);
+        }
+        
+        _putchar('\n');
+        
         ++n_nodes;
         h = h->next;
     }
+    
     return n_nodes;
 }
 
