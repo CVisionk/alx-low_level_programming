@@ -1,22 +1,20 @@
 #include "lists.h"
 
 /**
- * free_listint - adds a new node at the end of a list.
+ * free_listint - frees up all the memory allocated for a list
  * @head: the start of the list
  *
- * Return: number of elements
+ * Return: void
  */
 
 void free_listint(listint_t *head)
 {
-	listint_t *current = head;
-	listint_t *next;
+	listint_t *temp;
 
-	while (current != NULL)
+	while (head != NULL)
 	{
-		next = current->next;
-        free(current->n);
-        free(current);
-		current = next;
+		temp = head;
+        head = head->next;
+        free(head);
 	}
 }
