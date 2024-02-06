@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * listint_t - adds a new node at the beginning of a list.
+ * add_nodeint - adds a new node at the beginning of a list.
  * @head: the start of the list
  * @n: integer to be added
+ * 
  * Return: number of elements
  */
 
