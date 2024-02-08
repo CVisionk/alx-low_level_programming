@@ -10,22 +10,18 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int dec = 0; /* dec is the variable to hold the decimal format */
+{
+	unsigned int num = 0;
 
 	if (b == NULL)
 		return (0);
-
 	while (*b)
 	{
-		if (*b == '1')
-			dec = (dec << 1) | 1;
-		else if (*b == '0')
-			dec <<= 1;
-		else
+		if (*b != '0' && *b != '1')
 			return (0);
+		num = (num << 1) + (*b - '0');
 		b++;
 	}
-
-	return (dec);
+	return (num);
 }
-
+}
