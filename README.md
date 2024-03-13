@@ -4,16 +4,6 @@
 
 This repository contains C projects and exercises related to low-level programming for ALX Cohort 22.
 
-### What to Do When You Get Stuck?
-
-If you find yourself stuck while programming, try the following:
-
-- **Read Your Code Aloud**: Reading your code aloud can help you track down bugs. Pretend that you're explaining it to a friend sitting next to you. This process can reveal the problem areas. Additionally, it helps in identifying parts of the code that require comments.
-  
-- **Engage in Dialogue**: As you talk through your code, ask yourself questions or imagine your friend asking questions. This interactive process can lead to insights and solutions.
-
-- **Don't Worry**: Remember, as a C programmer, encountering challenges is part of the journey. Stay patient and persistent.
-
 ## Content
 
 ### [0x00-hello_world project](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x00-hello_world)
