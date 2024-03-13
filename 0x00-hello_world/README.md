@@ -1,5 +1,4 @@
-0x00-hello_world
-###0x00 - Hello, world
+#0x00 - Hello, world
 
 ##summary
 
@@ -16,13 +15,13 @@ C is a compiled language.
 -----------------------------
 ##0-preprocessor -  script that runs a C file through the preprocessor and save the result into another file.
 
-#!/bin/bash
+ #!/bin/bash
 gcc -E $CFILE -o c
 
 -----------------------------
-##1-compiler - script that compiles a C file but does not link
+ ##1-compiler - script that compiles a C file but does not link
 
-#!/bin/bash
+ #!/bin/bash
 gcc -c $CFILE
 -----------------------------
 ##2-assembler - script that generates the assembley code of a C code and save it in an output file.
