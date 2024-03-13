@@ -117,3 +117,42 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x09-static_libraries](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x09-static_libraries)
 
+### [0x0B-malloc_free](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0B-malloc_free)
+
+*(No content provided)*
+
+### [0x0C-more_malloc_free](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
+
+*(No content provided)*
+
+### [0x0D-preprocessor](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0D-preprocessor)
+
+*(No content provided)*
+
+### [0x0E-structures_typedef](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+
+*(No content provided)*
+
+### [0x0F-function_pointers](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0F-function_pointers)
+
+*(No content provided)*
+
+### [0x10-variadic_functions](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x10-variadic_functions)
+
+*(No content provided)*
+
+### [0x12-singly_linked_lists](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
+
+*(No content provided)*
+
+### [0x13-more_singly_linked_lists](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
+
+*(No content provided)*
+
+### [0x14-bit_manipulation](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x14-bit_manipulation)
+
+*(No content provided)*
+
+### [0x15-file_io](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x15-file.io)
+
+*(No content provided)*
