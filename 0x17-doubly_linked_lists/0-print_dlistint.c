@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dlist - prints all elements of list
+ * print_dlistint - prints all elements of list
  *
  * @h: pointer to the head of doubly linked list
  *
