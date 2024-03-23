@@ -23,4 +23,15 @@ Return: the address of the new element, or NULL if it failed
 Prototype: dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 Return: the address of the new element, or NULL if it failed
 
- ### 
+ ### 4-free_dlistint.c
+-Write a function that frees a dlistint_t list.
+Prototype: void free_dlistint(dlistint_t *head);
+
+ ### 5-get_dnodeint.c
+-Write a function that returns the nth node of a dlistint_t linked list.
+Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+where index is the index of the node, starting from 0
+if the node does not exist, return NULL
+julien@ubuntu:~/0x17. Doubly linked lists$
+
+ ###
