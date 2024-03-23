@@ -34,13 +34,14 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *nodeAtIndex = get_dnodeint_at_index(*head, index);
-	if(nodeAtIndex)
+
+	if (nodeAtIndex)
 	{
-		if(nodeAtIndex->prev)
+		if (nodeAtIndex->prev)
 			nodeAtIndex->prev->next = nodeAtIndex->next;
-		if(nodeAtIndex->next)
+		if (nodeAtIndex->next)
 			nodeAtIndex->next->prev = nodeAtIndex->prev;
-		if(index == 0)
+		if (index == 0)
 			*head = nodeAtIndex->next;
 
 		free(nodeAtIndex);
