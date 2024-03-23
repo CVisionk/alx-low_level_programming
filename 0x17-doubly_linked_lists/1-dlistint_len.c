@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dlistint - prints all elements of list
+ * dlistint_len - prints size of list
  *
  * @h: pointer to the head of doubly linked list
  *
@@ -12,6 +12,7 @@
 size_t dlistint_len(const dlistint_t *h)
 {
 	size_t n_nodes = 0;
+
 	while (h)
 	{
 		h = h->next;
