@@ -105,7 +105,7 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x06-pointers_arrays_strings](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
 
-- files
+- Files
    - 0-strcat.c
    - 1-strncat.c
    - 2-strncpy.c
@@ -136,7 +136,7 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x08-recursion](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x08-recursion)
 
--Files
+- Files
   - 0-puts_recursion.c
   - 1-print_rev_recursion.c
   - 2-strlen_recursion.c
@@ -149,7 +149,7 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x09-static_libraries](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x09-static_libraries)
 
--Files
+- Files
   - 0-isupper.c
   - 0-memset.c
   - 0-strcat.c
