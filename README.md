@@ -122,13 +122,58 @@ This repository contains C projects and exercises related to low-level programmi
    
 ### [0x07-pointers_arrays_strings](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 
-*(No content provided)*
+-files
+   - 0-memset.c
+   - 1-memcpy.c
+   - 2-strchr.c
+   - 3-strspn.c
+   - 4-strpbrk.c
+   - 5-strstr.c
+   - 7-print_chessboard.c
+   - 8-print_diagsums.c
+   - 100-set_string.c
+   - 101-crackme_password
 
 ### [0x08-recursion](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x08-recursion)
 
-*(No content provided)*
+-files
+  - 0-puts_recursion.c
+  - 1-print_rev_recursion.c
+  - 2-strlen_recursion.c
+  - 3-factorial.c
+  - 4-pow_recursion.c
+  - 5-sqrt_recursion.c
+  - 6-is_prime_number.c
+  - 100-is_palindrome.c
+  - 101-wildcmp.c
 
 ### [0x09-static_libraries](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x09-static_libraries)
+
+-files
+  - 0-isupper.c
+  - 0-memset.c
+  - 0-strcat.c
+  - 100-atoi.c
+  - 1-isdigit.c
+  - 1-memcpy.c
+  - 1-strncat.c
+  - 2-strchr.c
+  - 2-strlen.c
+  - 2-strncpy.c
+  - 3-islower.c
+  - 3-puts.c
+  - 3-strcmp.c
+  - 3-strspn.c
+  - 4-isalpha.c
+  - 4-strpbrk.c
+  - 5-strstr.c
+  - 6-abs.c
+  - 9-strcpy.c
+  - _putchar.c
+  - liball.a
+  - main.h
+  - create_static_lib.sh
+  - main.c
 
 ### [0x0B-malloc_free](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x0B-malloc_free)
 
