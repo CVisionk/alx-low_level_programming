@@ -105,24 +105,24 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x06-pointers_arrays_strings](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
 
--files
-   -0-strcat.c
-   -1-strncat.c
-   -2-strncpy.c
-   -3-strcmp.c
-   -4-rev_array.c
-   -5-string_toupper.c
-   -6-cap_string.c
-   -7-leet.c
-   -100-rot13.c
-   -101-print_number.c
-   -102-magic.c
-   -103-infinite_add.c
-   -104-print_buffer.c
+- files
+   - 0-strcat.c
+   - 1-strncat.c
+   - 2-strncpy.c
+   - 3-strcmp.c
+   - 4-rev_array.c
+   - 5-string_toupper.c
+   - 6-cap_string.c
+   - 7-leet.c
+   - 100-rot13.c
+   - 101-print_number.c
+   - 102-magic.c
+   - 103-infinite_add.c
+   - 104-print_buffer.c
    
 ### [0x07-pointers_arrays_strings](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 
--files
+- Files
    - 0-memset.c
    - 1-memcpy.c
    - 2-strchr.c
@@ -136,7 +136,7 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x08-recursion](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x08-recursion)
 
--files
+-Files
   - 0-puts_recursion.c
   - 1-print_rev_recursion.c
   - 2-strlen_recursion.c
@@ -149,7 +149,7 @@ This repository contains C projects and exercises related to low-level programmi
 
 ### [0x09-static_libraries](https://github.com/Cvisionk/alx-low_level_programming/tree/master/0x09-static_libraries)
 
--files
+-Files
   - 0-isupper.c
   - 0-memset.c
   - 0-strcat.c
