@@ -1,31 +1,28 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - entry point of function, print 00, 01..89 skip duplicates
+ * Return: always 0 (success)
  */
 int main(void)
 {
-    int tens_digit, ones_digit;
+	int a, b;
 
-    for (tens_digit = 0; tens_digit <= 8; tens_digit++)
-    {
-        for (ones_digit = tens_digit + 1; ones_digit <= 9; ones_digit++)
-        {
-            putchar(tens_digit + '0');
-            putchar(ones_digit + '0');
-
-            if (tens_digit != 8 || ones_digit != 9)
-            {
-                putchar(',');
-                putchar(' ');
-            }
-        }
-    }
-
-    putchar('\n');
-
-    return (0);
+	a = '0';
+	while (a < '9')
+	{
+		b = a + 1;
+		while (b <= '9')
+		{
+			putchar(a);
+			putchar(b++);
+			if (a != '8')
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+		a++;
+	}
+	putchar('\n');
+	return (0);
 }
-

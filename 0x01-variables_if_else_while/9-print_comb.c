@@ -1,34 +1,21 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - entry point for program, print all ints followed by ', '
+ * using putchar
+ * Return: always 0 (success)
  */
 int main(void)
 {
-    int num1, num2;
+	int i;
 
-    for (num1 = 0; num1 <= 9; num1++)
-    {
-        for (num2 = num1 + 1; num2 <= 9; num2++)
-        {
-            putchar(num1 + '0');
-            putchar(',');
-            putchar(' ');
-            putchar(num2 + '0');
-
-            if (!(num1 == 8 && num2 == 9))
-            {
-                putchar(',');
-                putchar(' ');
-            }
-        }
-    }
-
-    putchar('\n');
-
-    return (0);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+		if (i == 57)
+			continue;
+		putchar(44);
+		putchar(32);
+	}
+	putchar(10);
+	return (0);
 }
-
-

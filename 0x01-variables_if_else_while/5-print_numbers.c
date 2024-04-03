@@ -1,23 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - Entry point, prints numbers 0-9
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char letter;
+	int i;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        if (letter != 'q' && letter != 'e')
-        {
-            putchar(letter);
-        }
-    }
-
-    putchar('\n');
-
-    return (0);
+	for (i = 0; i < 10; i++)
+		printf("%i", i);
+	putchar('\n');
+	return (0);
 }
