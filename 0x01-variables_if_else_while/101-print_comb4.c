@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point, print 00, 01..89 skip duplicates
- *
  * Return: Always 0 (Success)
  */
 int main(void)
