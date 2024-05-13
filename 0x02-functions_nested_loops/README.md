@@ -18,11 +18,11 @@ in C while practicing declaring and defining my own functions.
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 * Don’t forget to push your header file
 
-## Helper File :raised_hands:
+## Helper File
 
 * [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
 
-## Header File :file_folder:
+## Header File
 
 * [main.h](./main.h): Header file containing prototypes for all
 
