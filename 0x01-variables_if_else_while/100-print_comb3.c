@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - entry point of function, print 00, 01..89 skip duplicates
  * Return: always 0 (success)

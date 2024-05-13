@@ -6,7 +6,6 @@
  * main - Entry point, decides if a random num is positive/negative
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;

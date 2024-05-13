@@ -4,7 +4,6 @@
  * main - Entry point, print lower and uppercase chars
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char letter;

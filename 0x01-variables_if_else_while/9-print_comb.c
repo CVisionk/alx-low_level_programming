@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - entry point for program, print all ints followed by ', '
  * using putchar

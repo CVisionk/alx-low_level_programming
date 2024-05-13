@@ -6,7 +6,6 @@
  * main - Entry point, prints only last digit of num stored in n
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n, last_digit;
