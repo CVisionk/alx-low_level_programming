@@ -2,7 +2,6 @@
 
 /**
  * main - Prints a quote, followed by a new line.
- *
  * Return: Always 0.
  */
 
