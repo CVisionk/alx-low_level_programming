@@ -1,27 +1,30 @@
 #include <stdio.h>
+
+/**
+ * main - Entry point.
+ * Return: Always 0.
+ */
 int main(void)
 {
-int num;
-while (num++ < 100)
+	int num;
 
-if ((num % 3 == 0) && (num % 5 == 0))
-printf("FizzBuzz ");
+	while (num++ < 100)
 
-else if ((num % 3) == 0)
-printf("Fizz ");
+		if ((num % 3 == 0) && (num % 5 == 0))
+			printf("FizzBuzz ");
 
-else if ((num % 5) == 0)
-{
-if (num != 100)
-printf("Buzz ");
+		else if ((num % 3) == 0)
+			printf("Fizz ");
 
-else
-printf("Buzz");
-}
+		else if ((num % 5) == 0)
+		{
+			if (num != 100)
+				printf("Buzz ");
+			else
+				printf("Buzz");
+		} else
+			printf("%d ", num);
 
-else
-printf("%d ", num);
-
-printf("\n");
-return (0);
+	printf("\n");
+	return (0);
 }
