@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints quote and a new line.
+ * main - Prints quote and a new line.
  * Return: Always 0.
  */
 int main(void)
