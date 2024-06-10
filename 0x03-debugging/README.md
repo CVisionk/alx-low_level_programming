@@ -2,7 +2,7 @@
 
 In this project, I continued to learn about debugging functions in C.
 
-## Header File :file_folder:
+## Header File
 
 * [main.h](./main.h): Header file containing prototypes for all functions written in the project.
 
@@ -31,4 +31,3 @@ In this project, I continued to learn about debugging functions in C.
     - Line count will not be checked for this task.
     - `Compiled using:` gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a
     - Additional test case for leap year: `Compiled using: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b
-

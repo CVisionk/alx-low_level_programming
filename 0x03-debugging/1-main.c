@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point, avoids infinite loop on main.
- * Return: Always 0.
+ * main - Entry point, avoids infinite loop on main.
+ * Return: Always 0.
  */
 int main(void)
 {
