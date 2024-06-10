@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point.
+ * main - Write a program that finds and prints the largest prime
+ *        factor of the number 612852475143, followed by a new line.
  * Return: Always 0.
  */
 int main(void)
