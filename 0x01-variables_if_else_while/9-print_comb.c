@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point for program, print all ints followed by ', '
- * using putchar
+ * main - Entry point for program, print all ints followed by ', '
+ *        using putchar
  * Return: always 0 (success)
  */
 int main(void)
