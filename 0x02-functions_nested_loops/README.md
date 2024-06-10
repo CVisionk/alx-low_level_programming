@@ -18,15 +18,7 @@ in C while practicing declaring and defining my own functions.
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 * Don’t forget to push your header file
 
-## Helper File
-
-* [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
-
-## Header File
-
-* [main.h](./main.h): Header file containing prototypes for all
-
-## Tasks :page_with_curl:
+## Tasks
 
 * **0. _putchar**
   * [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed by a
@@ -63,6 +55,7 @@ pha.c -o 4-isalpha
 
 * **6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you**
   * [6-abs.c](./6-abs.c): C function that returns the absolute value of an integer.
+  * The standard library provides a similar function: abs. Run man abs to learn more.
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c ./tests/6-main.c 6-abs.c -o 6-abs
 
 * **7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
