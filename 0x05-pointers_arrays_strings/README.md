@@ -20,6 +20,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **1. Don't swap horses in crossing a stream**
   * [1-swap.c](./1-swap.c): C function that swaps the value of two integers.
+  * `Test file: `[1-main.c](./tests/1-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/1-main.c 1-swap.c -o 1-swap
    * `Expected output:`
 <pre><code>
@@ -36,6 +37,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **2. This report, by its very length, defends itself against the risk of being read**
   * [2-strlen.c](./2-strlen.c): C function that returns the length of a string.
+  * `Test file: `[2-main.c](./tests/2-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/2-main.c 2-strlen.c -o 2-strlen
     * `Expected output:`
 <pre><code>
@@ -50,6 +52,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **3. I do not fear computers. I fear the lack of them**
   * [3-puts.c](./3-puts.c): C function that prints a string, followed by a new line to `stdout`.
+  * `Test file: `[3-main.c](./tests/3-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c tests/3-main.c 3-puts.c -o 3-puts
   * `Expected output:`
 <pre><code>
@@ -64,6 +67,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **4. I can only go one way. I've not got a reverse gear**
   * [4-print_rev.c](./4-print_rev.c): C function that prints a string, in reverse, followed by a new line.
+  * `Test file: `[4-main.c](./tests/4-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c tests/4-main.c 4-print_rev.c -o 4-print_rev
    * `Expected output:`
 <pre><code>
@@ -77,6 +81,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
   * [5-rev_string.c](./5-rev_string.c): C function that reverses a string.
+  * `Test file: `[5-main.c](./tests/5-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/5-main.c 5-rev_string.c -o 5-rev_string
    * `Expected output:`
 <pre><code>
@@ -92,6 +97,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **6. Half the lies they tell about me aren't true**
   * [6-puts2.c](./6-puts2.c): C function that prints every other character of a string followed by a new line.
+  * `Test file: `[6-main.c](./tests/6-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c tests/6-main.c 6-puts2.c -o 6-puts2
    * `Expected output:`
 <pre><code>
@@ -107,6 +113,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **7. Winning is only half of it. Having fun is the other half**
   * [7-puts_half.c](./7-puts_half.c): C function that prints the second half of a string followed by a new line.
+  * `Test file: `[7-main.c](./tests/7-main.c)
   * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c tests/7-main.c 7-puts_half.c -o 7-puts_half
   * `Expected output:`
 <pre><code>
@@ -120,6 +127,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **8. Arrays are not pointers**
   * [8-print_array.c](./8-print_array.c): C function that prints an input `n` elements
+  * `Test file: `[8-main.c](./tests/8-main.c)
   of an array of integers, followed by a new line.
     * Numbers are separated by a comma followed by a space.
     * Numbers are displayed in the same order as they are stored in the array.
@@ -136,6 +144,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **9. strcpy**
   * [9-strcpy.c](./9-strcpy.c): C function that copies the string pointed to by
+  * `Test file: `[9-main.c](./tests/9-main.c)
   `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
     * Returns the pointer to `dest`.
     * `Compiled using:`gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/9-main.c 9-strcpy.c -o 9-strcpy
@@ -153,6 +162,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers**
   * [100-atoi.c](./100-atoi.c): C function that converts a string to an integer
+  * `Test file: `[100-main.c](./tests/100-main.c)
   without using `long`, new variable arrays, or hard-coded special values, as follows:
     * The number in the string can be preceded by an infinite number of characters.
     * Takes into account all `+` and `-` signs before the number.
@@ -184,6 +194,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
 
 * **11. Don't hate the hacker, hate the code**
   * [101-keygen.c](./101-keygen.c): C program that generates random valid passwords
+  * `Test file: `[101-main.c](./tests/101-main.c)
   for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
   * `Compiled using:`  gcc -Wall -pedantic -Werror -Wextra 101-keygen.c -o 101-keygen
   * `Expected output:`
