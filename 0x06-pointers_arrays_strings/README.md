@@ -292,7 +292,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x06-pointers_arrays_strings
   * `Test file: `[104-main.c](./tests/104-main.c)
   * `Compiled using: ` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/104-main.c 104-print_buffer.c -o 104-buffer
   * `Expected output:`
-<pre><code style="color: green">
+<pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x06-pointers_arrays_strings$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/104-main.c 104-print_buffer.c -o 104-buffer
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x06-pointers_arrays_strings$ ./104-buffer
 This is a string!
