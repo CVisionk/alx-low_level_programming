@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - this is a function to print its name
+ * main - Function that prints number of arguments passed to it.
  * @argc: argc parameter
  * @argv: an array of a command listed
  * Return: 0 for success

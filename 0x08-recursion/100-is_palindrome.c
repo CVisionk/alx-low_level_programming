@@ -1,11 +1,11 @@
 #include "header.h"
+
 int _strlen_recursion(char *len);
 int palindrome(char *txt, int ini, int end);
 
 /**
  * is_palindrome - function that probe if a string is palindrome
  * @s: char
- *
  * Return: 1 if a string is a palindrome and 0 if not.
  */
 int is_palindrome(char *s)
@@ -21,10 +21,8 @@ int is_palindrome(char *s)
 /**
  * _strlen_recursion - function that probe if a string is palindrome
  * @len: char to review
- *
  * Return: 1 if a string is a palindrome and 0 if not.
  */
-
 int _strlen_recursion(char *len)
 {
 	if (*len == '\0')
@@ -36,7 +34,8 @@ int _strlen_recursion(char *len)
 /**
  * palindrome - function that probe if a string is palindrome
  * @txt: char to review
- *
+ * @first: index.
+ * @end: index.
  * Return: 1 if a string is a palindrome and 0 if not.
  */
 int palindrome(char *txt, int first, int end)

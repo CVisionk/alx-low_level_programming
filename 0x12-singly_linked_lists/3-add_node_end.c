@@ -1,4 +1,10 @@
 #include "lists.h"
+
+/**
+ * get_length - calculates the length of string.
+ * @str: target string.
+ * Return: length of string.
+ */
 unsigned int get_length(const char *str)
 {
 	int i, length = 0;
@@ -18,7 +24,6 @@ unsigned int get_length(const char *str)
  * add_node_end - adds a new node to end of linked list
  * @head: pointer to pointer to linked list
  * @str: used to set the str attribute of the new node
- *
  * Return: address of linked list of NULL
  */
 list_t *add_node_end(list_t **head, const char *str)

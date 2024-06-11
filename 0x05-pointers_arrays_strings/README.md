@@ -198,5 +198,5 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
   for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
   * `Compiled using:`  gcc -Wall -pedantic -Werror -Wextra 101-keygen.c -o 101-keygen
   * `Expected output:`
-   <pre><code>
-   </code></pre>
+<pre><code>
+</code></pre>
