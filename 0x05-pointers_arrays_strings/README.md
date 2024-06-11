@@ -5,6 +5,14 @@
 * **0. 98 Battery st.**
   * [0-reset_to_98.c](./0-reset_to_98.c): C function that takes a pointer to an `int` as a parameter and updates the value it points to to `98`.
   * `Compiled using:`  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/0-main.c 0-reset_to_98.c -o 0-98
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/0-main.c 0-reset_to_98.c -o 0-98
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ ./0-98
+n=402
+n=98
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$
+</code></pre>
 
 * **1. Don't swap horses in crossing a stream**
   * [1-swap.c](./1-swap.c): C function that swaps the value of two integers.
