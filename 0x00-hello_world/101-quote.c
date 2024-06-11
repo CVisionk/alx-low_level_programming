@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 /**
  * main - Prints quote and a new line.
  * Return: Always 0.

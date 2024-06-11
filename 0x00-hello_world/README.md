@@ -19,43 +19,197 @@ points using `main`, and text-printing functions in C.
 * **0. Preprocessor**
   * [0-preprocessor](./0-preprocessor): Bash script that runs a C file saved in the
   variable `$CFILE` through the preprocessor and saves the result in the file `c`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ export CFILE=main.c
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./0-preprocessor
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ tail c
+
+
+
+
+
+# 8 "main.c"
+int main(void)
+{
+ return (0);
+}
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **1. Compiler**
   * [1-compiler](./1-compiler): Bash script that compiles a C file saved in the
   variable `$CFILE` that does not link; saves the result in an output file of the
   same name but with a `.o` extension.
     * Example: If the C file is `main.c`, the output is `main.o`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./1-compiler
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$  cat -v main.o | head
+^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^A^@>^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-H^A^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@@^@^L^@^K^@M-s^O^^M-zUHM-^IM-eM-8^@^@^@^@]M-C^@GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0^@^@^@^@^@^@^D^@^@^@^P^@^@^@^E^@^@^@GNU^@^B^@^@M-@^D^@^@^@^C^@^@^@^@^@^@^@^T^@^@^@^@^@^@^@^AzR^@^Ax^P^A^[^L^G^HM-^P^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^O^@^@^@^@E^N^PM-^F^BC^M^FF^L^G^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^O^@^@^@^@^@^@^@^@main.c^@main^@^@^@^@ ^@^@^@^@^@^@^@^B^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@.symtab^@.strtab^@.shstrtab^@.text^@.data^@.bss^@.comment^@.note.GNU-stack^@.note.gnu.property^@.rela.eh_frame^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@^O^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@!^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@O^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@'^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@O^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^@^@^@^A^@^@^@0^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@O^@^@^@^@^@^@^@,^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@5^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@{^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@E^@^@^@^G^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@ ^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@]^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M- ^@^@^@^@^@^@^@8^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@X^@^@^@^D^@^@^@@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@H^A^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^G^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-X^@^@^@^@^@^@^@`^@^@^@^@^@^@^@
+^@^@^@^C^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@8^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@`^A^@^@^@^@^@^@g^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **2. Assembler**
   * [2-assembler](./2-assembler): Bash script that generates the assembly code of a
   C code saved in the variable `$CFILE`; saves the result in an output file of the
   same name but with a `.s` extension.
     * Example: If the C file is `main.c`, the result is `main.s`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./2-assembler
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ cat main.s
+        .file   "main.c"
+        .text
+        .globl  main
+        .type   main, @function
+main:
+.LFB0:
+        .cfi_startproc
+        endbr64
+        pushq   %rbp
+        .cfi_def_cfa_offset 16
+        .cfi_offset 6, -16
+        movq    %rsp, %rbp
+        .cfi_def_cfa_register 6
+        movl    $0, %eax
+        popq    %rbp
+        .cfi_def_cfa 7, 8
+        ret
+        .cfi_endproc
+.LFE0:
+        .size   main, .-main
+        .ident  "GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+        .section        .note.GNU-stack,"",@progbits
+        .section        .note.gnu.property,"a"
+        .align 8
+        .long   1f - 0f
+        .long   4f - 1f
+        .long   5
+0:
+        .string "GNU"
+1:
+        .align 8
+        .long   0xc0000002
+        .long   3f - 2f
+2:
+        .long   0x3
+3:
+        .align 8
+4:
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$   
+</code></pre>
 
 * **3. Name**
   * [3-name](./3-name): Bash Script that compiles a C file saved in the variable
   `$CFILE` and creates an executable `cisfun`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./3-name
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ls
+cisfun
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **4. Hello, puts**
   * [4-puts.c](./4-puts.c): C program that prints exactly `"Programming is like building
   a multilingual puzzle`, followed by a new line, using the function `puts`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
+"Programming is like building a multilingual puzzle
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out | cat -e
+"Programming is like building a multilingual puzzle$
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **5. Hello, printf**
   * [5-printf.c](./5-printf.c): C program that prints exactly `with proper grammer, but
   the outcome is a piece of art,`, followed by a new line, using the function `printf`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c && ./a.out
+with proper grammar, but the outcome is a piece of art,
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./a.out | cat -e
+with proper grammar, but the outcome is a piece of art,$
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **6. Size is not grandeur, and territory does not make a nation**
-  * [6-size.c](./6-size.c): C program that prints the size of various types on the computer
-  it is compiled and run on.
+  * [6-size.c](./6-size.c): C program that prints the size of various types on the computer it is compiled and run on.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc 6-size.c -m64 -o size64 2> /tmp/64
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./size64
+Size of a char: 1 byte(s)
+Size of an int: 4 byte(s)
+Size of a long int: 8 byte(s)
+Size of a long long int: 8 byte(s)
+Size of a float: 4 byte(s)
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
 
 * **7. Intel**
   * [100-intel](./100-intel): Script that generates the assembly code in Intel syntax of a
   C file saved in the variable $CFILE; saves the result in an output file of the same name
   but with a `.s` extension.
     * Example: If the C file is `main.c`, the output is `main.s`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ export CFILE=main.c
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./100-intel
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ cat main.s
+        .file   "main.c"
+        .intel_syntax noprefix
+        .text
+        .globl  main
+        .type   main, @function
+main:
+.LFB0:
+        .cfi_startproc
+        endbr64
+        push    rbp
+        .cfi_def_cfa_offset 16
+        .cfi_offset 6, -16
+        mov     rbp, rsp
+        .cfi_def_cfa_register 6
+        mov     eax, 0
+        pop     rbp
+        .cfi_def_cfa 7, 8
+        ret
+        .cfi_endproc
+.LFE0:
+        .size   main, .-main
+        .ident  "GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+        .section        .note.GNU-stack,"",@progbits
+        .section        .note.gnu.property,"a"
+        .align 8
+        .long   1f - 0f
+        .long   4f - 1f
+        .long   5
+0:
+        .string "GNU"
+1:
+        .align 8
+        .long   0xc0000002
+        .long   3f - 2f
+2:
+        .long   0x3
+3:
+        .align 8
+4:
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$   
+</code></pre>
 
 * **8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
   * [101-quote.c](./101-quote.c): C program that prints exactly `and that piece of art is
   useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error,
   without using any functions listed in the NAME sesction of the man(3) `printf` or man(3)
   `puts`.
+  * `Expected output:`
+<pre><code>
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./quote
+and that piece of art is useful" - Dora Korpar, 2015-10-19
+collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
+</code></pre>
