@@ -129,10 +129,10 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
   * [8-print_array.c](./8-print_array.c): C function that prints an input `n` elements
   * `Test file: `[8-main.c](./tests/8-main.c)
   of an array of integers, followed by a new line.
-    * Numbers are separated by a comma followed by a space.
-    * Numbers are displayed in the same order as they are stored in the array.
-    * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/8-main.c 8-print_array.c -o 8-print_array
-    * `Expected output:`
+  * Numbers are separated by a comma followed by a space.
+  * Numbers are displayed in the same order as they are stored in the array.
+  * `Compiled using:` gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/8-main.c 8-print_array.c -o 8-print_array
+  * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/8-main.c 8-print_array.c -o 8-print_array
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ ./8-print_array
@@ -146,9 +146,9 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings
   * [9-strcpy.c](./9-strcpy.c): C function that copies the string pointed to by
   * `Test file: `[9-main.c](./tests/9-main.c)
   `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
-    * Returns the pointer to `dest`.
-    * `Compiled using:`gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/9-main.c 9-strcpy.c -o 9-strcpy
-    * `Expected output:` 
+  * Returns the pointer to `dest`.
+  * `Compiled using:`gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/9-main.c 9-strcpy.c -o 9-strcpy
+  * `Expected output:` 
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 tests/9-main.c 9-strcpy.c -o 9-strcpy
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x05-pointers_arrays_strings$ ./9-strcpy
