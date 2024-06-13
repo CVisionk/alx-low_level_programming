@@ -15,20 +15,20 @@
 
 # Learning Objectives
 
-Why C programming is awesome:
+- Why C programming is awesome:
 `Because it just is :)`
 `C programming is awesome because it provides a strong foundation in computer science, allowing developers to understand how software interacts with hardware. C is a powerful, efficient, and flexible language that has influenced many modern programming languages. It is widely used for system programming, developing operating systems, embedded systems, and high-performance applications.`
-Who invented C:
+- Who invented C:
 `by Dennis Ritchie in the early 1970s at Bell Labs. It was developed as a system programming language for the Unix operating system.`
-Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds:
+- Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds:
   - **Dennis Ritchie**: `Co-inventor of the C programming language and key developer of the Unix operating system.`
   - **Brian Kernighan**: `Co-author of "The C Programming Language" book (often referred to as K&R) with Dennis Ritchie, and a major contributor to the development of C.`
   - **Linus Torvalds**: `Creator of the Linux kernel, which is written in C.`
-What happens when you type gcc main.c:
+- What happens when you type gcc main.c:
 `When you type 'gcc main.c', the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.`
-What is an entry point:
+- What is an entry point:
 `An entry point is the location in a program where execution starts. In C programs, the entry point is the 'main' function.`
-What is main:
+- What is main:
 `The 'main' function is the starting point of execution for any C program. Its typical declaration is:`
 <pre><code>
 int main(void) {
@@ -36,19 +36,19 @@ int main(void) {
     return 0;
 }
 </code></pre>
-How to print text using printf, puts and putchar:
+- How to print text using printf, puts and putchar:
 `TASK OBJECTIVES`
-How to get the size of a specific type using the unary operator sizeof:
+- How to get the size of a specific type using the unary operator sizeof:
 `TASK OBJECTIVE`
-How to compile using gcc:
+- How to compile using gcc:
 `TASK OBJECTIVE`
-What is the default program name when compiling with gcc:
+- What is the default program name when compiling with gcc:
 `a.out if no output file name is specified.`
-What is the official C coding style and how to check your code with betty-style
+- What is the official C coding style and how to check your code with betty-style
 `TASK OBJECTIVE`
-How to find the right header to include in your source code when using a standard library function:
+- How to find the right header to include in your source code when using a standard library function:
 `TASK OBJECTIVE`
-How does the main function influence the return value of the program:
+- How does the main function influence the return value of the program:
 `The 'main' function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.`
 
 ## Requirements
