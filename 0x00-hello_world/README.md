@@ -40,19 +40,19 @@ int main(void) {
 }
 </code></pre>
 - How to print text using printf, puts and putchar:
-`TASK OBJECTIVES`
+    - `TASK OBJECTIVES`
 - How to get the size of a specific type using the unary operator sizeof:
-`TASK OBJECTIVE`
+    - `TASK OBJECTIVE`
 - How to compile using gcc:
-`TASK OBJECTIVE`
+    - `TASK OBJECTIVE`
 - What is the default program name when compiling with gcc:
-`a.out if no output file name is specified.`
+    - a.out if no output file name is specified.
 - What is the official C coding style and how to check your code with betty-style
-`TASK OBJECTIVE`
+    - `TASK OBJECTIVE`
 - How to find the right header to include in your source code when using a standard library function:
-`TASK OBJECTIVE`
+    - `TASK OBJECTIVE`
 - How does the main function influence the return value of the program:
-`The 'main' function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.`
+    - The 'main' function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.
 
 ## Requirements
 * C
