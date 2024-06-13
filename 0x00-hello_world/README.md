@@ -13,23 +13,67 @@
 - [Hash-bang under the hood ](https://x.com/unix_byte/status/1024147947393495040?s=21)
 - [Linus Torvalds on C vs. C++](https://harmful.cat-v.org/software/c++/linus)
 
+# Learning Objectives
+
+Why C programming is awesome:
+`Because it just is :)`
+`C programming is awesome because it provides a strong foundation in computer science, allowing developers to understand how software interacts with hardware. C is a powerful, efficient, and flexible language that has influenced many modern programming languages. It is widely used for system programming, developing operating systems, embedded systems, and high-performance applications.`
+Who invented C:
+`by Dennis Ritchie in the early 1970s at Bell Labs. It was developed as a system programming language for the Unix operating system.`
+Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds:
+  - **Dennis Ritchie**: `Co-inventor of the C programming language and key developer of the Unix operating system.`
+  - **Brian Kernighan**: `Co-author of "The C Programming Language" book (often referred to as K&R) with Dennis Ritchie, and a major contributor to the development of C.`
+  - **Linus Torvalds**: `Creator of the Linux kernel, which is written in C.`
+What happens when you type gcc main.c:
+`When you type 'gcc main.c', the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.`
+What is an entry point:
+`An entry point is the location in a program where execution starts. In C programs, the entry point is the 'main' function.`
+What is main:
+`The 'main' function is the starting point of execution for any C program. Its typical declaration is:`
+<pre><code>
+int main(void) {
+    // code
+    return 0;
+}
+</code></pre>
+How to print text using printf, puts and putchar:
+`TASK OBJECTIVES`
+How to get the size of a specific type using the unary operator sizeof:
+`TASK OBJECTIVE`
+How to compile using gcc:
+`TASK OBJECTIVE`
+What is the default program name when compiling with gcc:
+`a.out if no output file name is specified.`
+What is the official C coding style and how to check your code with betty-style
+`TASK OBJECTIVE`
+How to find the right header to include in your source code when using a standard library function:
+`TASK OBJECTIVE`
+How does the main function influence the return value of the program:
+`The 'main' function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.`
 
 ## Requirements
-
-* Allowed editors: vi, vim, emacs
-* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-* All your files should end with a new line
-* A README.md file at the root of the repo, containing a description of the repository
-* A README.md file, at the root of the folder of this project, containing a description of the project
-* There should be no errors and no warnings during compilation
-* You are not allowed to use system
-* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* C
+    * Allowed editors: vi, vim, emacs
+    * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+    * All your files should end with a new line
+    * A README.md file at the root of the repo, containing a description of the repository
+    * A README.md file, at the root of the folder of this project, containing a description of the project
+    * There should be no errors and no warnings during compilation
+    * You are not allowed to use system
+    * Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* Shell Scripts
+    * Allowed editors: vi, vim, emacs
+    * All your scripts will be tested on Ubuntu 20.04 LTS
+    * All your scripts should be exactly two lines long ($ wc -l file should print 2)
+    * All your files should end with a new line
+    * The first line of all your files should be exactly #!/bin/bash
 
 ## Tasks
 
 * **0. Preprocessor**
-  * [0-preprocessor](./0-preprocessor): Bash script that runs a C file saved in the
-  variable `$CFILE` through the preprocessor and saves the result in the file `c`.
+    * [0-preprocessor](./0-preprocessor): Script that runs a C file through the preprocessor and save the result into another file.
+        * The C file name will be saved in the variable $CFILE
+        * The output should be saved in the file c
   * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ export CFILE=main.c
@@ -49,10 +93,10 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **1. Compiler**
-  * [1-compiler](./1-compiler): Bash script that compiles a C file saved in the
-  variable `$CFILE` that does not link; saves the result in an output file of the
-  same name but with a `.o` extension.
-    * Example: If the C file is `main.c`, the output is `main.o`.
+    * [1-compiler](./1-compiler): Script that compiles a C file but does not link.
+        * The C file name will be saved in the variable $CFILE
+        * The output file should be named the same as the C file, but with the extension .o instead of .c.
+            * Example: if the C file is `main.c`, the output file should be `main.o`
   * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./1-compiler
@@ -62,11 +106,11 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$  cat -v ma
 </code></pre>
 
 * **2. Assembler**
-  * [2-assembler](./2-assembler): Bash script that generates the assembly code of a
-  C code saved in the variable `$CFILE`; saves the result in an output file of the
-  same name but with a `.s` extension.
-    * Example: If the C file is `main.c`, the result is `main.s`.
-  * `Expected output:`
+    * [2-assembler](./2-assembler): Script that generates the assembly code of a C code and save it in an output file.
+        * The C file name will be saved in the variable $CFILE
+        * The output file should be named the same as the C file, but with the extension .s instead of .c.
+            * Example: if the C file is `main.c`, the output file should be `main.s`
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./2-assembler
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ cat main.s
@@ -112,9 +156,9 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **3. Name**
-  * [3-name](./3-name): Bash Script that compiles a C file saved in the variable
-  `$CFILE` and creates an executable `cisfun`.
-  * `Expected output:`
+    * [3-name](./3-name): script that compiles a C file and creates an executable named cisfun.
+        * The C file name will be saved in the variable $CFILE
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./3-name
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ls
@@ -123,9 +167,11 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **4. Hello, puts**
-  * [4-puts.c](./4-puts.c): C program that prints exactly `"Programming is like building
-  a multilingual puzzle`, followed by a new line, using the function `puts`.
-  * `Expected output:`
+    * [4-puts.c](./4-puts.c): C program that prints exactly `"Programming is like building a multilingual puzzle, followed by a new line.`
+        * Use the function puts
+        * You are not allowed to use printf
+        * Your program should end with the value 0
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
 "Programming is like building a multilingual puzzle
@@ -135,9 +181,12 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **5. Hello, printf**
-  * [5-printf.c](./5-printf.c): C program that prints exactly `with proper grammer, but
-  the outcome is a piece of art,`, followed by a new line, using the function `printf`.
-  * `Expected output:`
+    * [5-printf.c](./5-printf.c): C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line.
+        * Use the function printf
+        * You are not allowed to use the function puts
+        * Your program should return 0
+        * Your program should compile without warning when using the -Wall gcc option
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$  gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c && ./a.out
 with proper grammar, but the outcome is a piece of art,
@@ -147,7 +196,11 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **6. Size is not grandeur, and territory does not make a nation**
-  * [6-size.c](./6-size.c): C program that prints the size of various types on the computer it is compiled and run on.
+    * [6-size.c](./6-size.c): C program that prints the size of various types on the computer it is compiled and run on.
+        * You should produce the exact same output as in the example
+        * Warnings are allowed
+        * Your program should return 0
+        * You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
   * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc 6-size.c -m64 -o size64 2> /tmp/64
@@ -161,11 +214,11 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **7. Intel**
-  * [100-intel](./100-intel): Script that generates the assembly code in Intel syntax of a
-  C file saved in the variable $CFILE; saves the result in an output file of the same name
-  but with a `.s` extension.
-    * Example: If the C file is `main.c`, the output is `main.s`.
-  * `Expected output:`
+    * [100-intel](./100-intel): Script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+        * The C file name will be saved in the variable $CFILE.
+        * The output file should be named the same as the C file, but with the extension .s instead of .c.
+            * Example: if the C file is `main.c`, the output file should be `main.s`
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ export CFILE=main.c
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./100-intel
@@ -213,11 +266,11 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$
 </code></pre>
 
 * **8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
-  * [101-quote.c](./101-quote.c): C program that prints exactly `and that piece of art is
-  useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error,
-  without using any functions listed in the NAME sesction of the man(3) `printf` or man(3)
-  `puts`.
-  * `Expected output:`
+    * [101-quote.c](./101-quote.c): C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error.
+        * You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+        * Your program should return 1
+        * Your program should compile without any warnings when using the -Wall gcc option
+    * `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x00-hello_world$ ./quote
