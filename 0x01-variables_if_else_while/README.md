@@ -1,6 +1,6 @@
 # C - Variables, if, else, while
 
-## **`Target: Comprehensive`**
+## **`Target: Comprehensive, Explore every avenue of knowledge!`**
 
 # Resources
 
