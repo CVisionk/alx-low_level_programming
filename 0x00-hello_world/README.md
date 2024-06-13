@@ -52,7 +52,7 @@ int main(void) {
 - How to find the right header to include in your source code when using a standard library function:
     - `TASK OBJECTIVE`
 - How does the main function influence the return value of the program:
-    - The 'main' function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.
+    - The `main` function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.
 
 ## Requirements
 * C
