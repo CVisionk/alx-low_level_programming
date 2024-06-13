@@ -16,20 +16,23 @@
 # Learning Objectives
 
 - Why C programming is awesome:
-Because it just is :)
-C programming is awesome because it provides a strong foundation in computer science, allowing developers to understand how software interacts with hardware. C is a powerful, efficient, and flexible language that has influenced many modern programming languages. It is widely used for system programming, developing operating systems, embedded systems, and high-performance applications.
+    - Because it just is :)
+    - C programming is awesome because it provides a strong foundation in computer science, allowing developers to understand how software interacts with hardware. C is a powerful, efficient, and flexible language that has influenced many modern programming languages. It is widely used for system programming, developing operating systems, embedded systems, and high-performance applications.
 - Who invented C:
-by Dennis Ritchie in the early 1970s at Bell Labs. It was developed as a system programming language for the Unix operating system.
+    - By Dennis Ritchie in the early 1970s at Bell Labs. It was developed as a system programming language for the Unix operating system.
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds:
-  - **Dennis Ritchie**: Co-inventor of the C programming language and key developer of the Unix operating system.
-  - **Brian Kernighan**: Co-author of "The C Programming Language" book (often referred to as K&R) with Dennis Ritchie, and a major contributor to the development of C.
-  - **Linus Torvalds**: Creator of the Linux kernel, which is written in C.
+  - **Dennis Ritchie**: 
+        - Co-inventor of the C programming language and key developer of the Unix operating system.
+  - **Brian Kernighan**:
+        - Co-author of "The C Programming Language" book (often referred to as K&R) with Dennis Ritchie, and a major contributor to the development of C.
+  - **Linus Torvalds**:
+        - Creator of the Linux kernel, which is written in C.
 - What happens when you type gcc main.c:
-When you type 'gcc main.c', the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.
+    - When you type 'gcc main.c', the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.
 - What is an entry point:
-An entry point is the location in a program where execution starts. In C programs, the entry point is the 'main' function.
+    - An entry point is the location in a program where execution starts. In C programs, the entry point is the 'main' function.
 - What is main:
-The 'main' function is the starting point of execution for any C program. Its typical declaration is:
+    - The 'main' function is the starting point of execution for any C program. Its typical declaration is:
 <pre><code>
 int main(void) {
     // code
