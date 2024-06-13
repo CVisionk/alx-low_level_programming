@@ -1,6 +1,6 @@
 # C - Hello, World
 
-## **`Target: Comprehensive, Uncover every detail, leave no stone unturned!`**
+## **Target: Comprehensive, `Uncover every detail, leave no stone unturned!`**
 
 # Resources
 
