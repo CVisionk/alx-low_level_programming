@@ -28,11 +28,11 @@
   - **Linus Torvalds**:
         - Creator of the Linux kernel, which is written in C.
 - What happens when you type gcc main.c:
-    - When you type 'gcc main.c', the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.
+    - When you type `gcc main.c`, the GNU Compiler Collection (GCC) compiles the C source file `main.c` into an executable file. The process includes preprocessing, compiling, assembling, and linking. By default, the output executable is named 'a.out'.
 - What is an entry point:
-    - An entry point is the location in a program where execution starts. In C programs, the entry point is the 'main' function.
+    - An entry point is the location in a program where execution starts. In C programs, the entry point is the `main` function.
 - What is main:
-    - The 'main' function is the starting point of execution for any C program. Its typical declaration is:
+    - The `main` function is the starting point of execution for any C program. Its typical declaration is:
 <pre><code>
 int main(void) {
     // code
