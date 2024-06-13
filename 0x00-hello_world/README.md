@@ -1,5 +1,7 @@
 # C - Hello, World
 
+## **`Scan every script page, decode every line! Leave no stone unturned!`**
+
 # Resources
 
 - [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240613T083344Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ca7b5f19bf348cd50c2b6dfb0333e806931c003003a6db1d5d83a26dced0afc4)
@@ -39,20 +41,17 @@ int main(void) {
     return 0;
 }
 </code></pre>
-- How to print text using printf, puts and putchar:
-    - `TASK OBJECTIVES`
-- How to get the size of a specific type using the unary operator sizeof:
-    - `TASK OBJECTIVE`
-- How to compile using gcc:
-    - `TASK OBJECTIVE`
+
 - What is the default program name when compiling with gcc:
     - a.out if no output file name is specified.
-- What is the official C coding style and how to check your code with betty-style
-    - `TASK OBJECTIVE`
-- How to find the right header to include in your source code when using a standard library function:
-    - `TASK OBJECTIVE`
 - How does the main function influence the return value of the program:
     - The `main` function's return value is used as the program's exit status. Returning 0 typically indicates successful execution, while returning a non-zero value indicates an error.
+- `TASK OBJECTIVES:`
+    - How to print text using printf, puts and putchar:
+    - How to get the size of a specific type using the unary operator sizeof
+    - How to compile using gcc:
+    - What is the official C coding style and how to check your code with betty-style
+    - How to find the right header to include in your source code when using a standard library function:
 
 ## Requirements
 * C
