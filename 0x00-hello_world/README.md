@@ -1,6 +1,6 @@
 # C - Hello, World
 
-## **`Scan every script page, decode every line! Leave no stone unturned!`**
+## **`Scan every script page, decode every line! Leave no line unturned!`**
 
 # Resources
 
