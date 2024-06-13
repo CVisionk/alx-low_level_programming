@@ -1,6 +1,6 @@
 # C - Variables, if, else, while
 
-## **`Scan every script page, decode every line! Leave no line unturned!`**
+## **`Target: Comprehensive`**
 
 # Resources
 
