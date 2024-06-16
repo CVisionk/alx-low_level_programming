@@ -41,7 +41,6 @@ int main(void) {
     return 0;
 }
 </code></pre>
-
 - What is the default program name when compiling with gcc:
     - a.out if no output file name is specified.
 - How does the main function influence the return value of the program:
@@ -54,6 +53,7 @@ int main(void) {
     - How to find the right header to include in your source code when using a standard library function:
 
 ## Requirements
+
 * C
     * Allowed editors: vi, vim, emacs
     * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89

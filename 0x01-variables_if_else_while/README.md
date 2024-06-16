@@ -57,7 +57,6 @@ collenk@LAPTOP-QU24OQM9:~$ gcc -m64 -o program64 main.c
 - You are not allowed to use system
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 
-
 ## Tasks
 
 * **0. Positive anything is better than negative nothing**
