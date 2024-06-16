@@ -250,7 +250,7 @@ collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x04-more_functions_nested_l
 
 **11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic**
 - [100-prime_factor.c](100-prime_factor.c): Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
-- `Compilated using: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
+- `Compilaled using: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 - `Expected output:`
 <pre><code>
 collenk@LAPTOP-QU24OQM9:~/alx-low_level_programming/0x04-more_functions_nested_loops$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
