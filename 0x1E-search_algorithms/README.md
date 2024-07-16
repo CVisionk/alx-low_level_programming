@@ -44,3 +44,32 @@ Value checked array[8] = [-1]
 Value checked array[9] = [9]
 Found 999 at index: -1
 </code></pre>
+
+- 1. **Binary search**
+  - Write a function that searches for a value in a sorted array of integers using the Binary search algorithm
+    - Prototype : int binary_search(int *array, size_t size, int value);
+    - Where array is a pointer to the first element of the array to search in 
+    - size is the number of elements in array and value is the value to search for
+    - Your function must return the index where value is located
+    - You can assume that array will be sorted in ascending order
+    - You can assume that value won’t appear more than once in array
+    - If value is not present in array or if array is NULL, your function must return -1
+    - You must print the array being searched every time it changes.
+  - `Compiled using:`
+  - `Expected output:`
+<pre><code>
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+  - `Compiled using:`
+  - `Expected output:`
+<pre><code>
+</code></pre>
