@@ -1,8 +1,6 @@
 #ifndef SEARCH_ALGO_H
 #define SEARCH_ALGO_H
 
-#include <math.h>
-
 /**
  * File: search_algos.h
  * Auth: Collen Khoza
