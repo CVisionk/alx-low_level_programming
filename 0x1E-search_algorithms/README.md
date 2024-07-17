@@ -55,7 +55,7 @@ Found 999 at index: -1
     - You can assume that value won’t appear more than once in array
     - If value is not present in array or if array is NULL, your function must return -1
     - You must print the array being searched every time it changes.
-  - `Compiled using:`
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/1-main.c 1-binary.c -o 1-binary
   - `Expected output:`
 <pre><code>
 </code></pre>
