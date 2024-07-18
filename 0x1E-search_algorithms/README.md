@@ -138,6 +138,21 @@ Found 999 at index: -1
 collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$
 </code></pre>
 
+- **9. Interpolation search**
+  - Write a function that searches for a value in a sorted array of integers using the Interpolation search algorithm
+    - Prototype : int interpolation_search(int *array, size_t size, int value);
+    - Where array is a pointer to the first element of the array to search in
+    - size is the number of elements in array and value is the value to search for
+    - Your function must return the first index where value is located
+    - You can assume that array will be sorted in ascending order
+    - If value is not present in array or if array is NULL, your function must return -1
+    - To determine the probe position, you can use : size_t pos = low + (((double)(high - low) / (array[high] - array[low])) * (value - array[low]))
+    - Every time you compare a value in the array to the value you are searching, you have to print this value (see example below)
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/102-main.c 102-interpolation.c -o 102-interpolation
+  - `Expected output:`
+<pre><code>
+
+</code></pre>
 
 
 
