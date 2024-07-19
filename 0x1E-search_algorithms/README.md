@@ -151,7 +151,35 @@ collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorith
   - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/102-main.c 102-interpolation.c -o 102-interpolation
   - `Expected output:`
 <pre><code>
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/102-main.c 102-interpolation.c -o 102-interpolation
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$ ./102-interpolation
+Value checked array[6] = [2]
+Value checked array[7] = [3]
+Found 3 at index: 7
 
+Value checked array[14] = [7]
+Found 7 at index: 14
+
+Value checked array[2109] is out of range
+Found 999 at index: -1
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$
+</code></pre>
+
+- **10. Exponential search**
+  - Write a function that searches for a value in a sorted array of integers using the Exponential search algorithm
+    - Prototype : int exponential_search(int *array, size_t size, int value);
+    - Where array is a pointer to the first element of the array to search in
+    - size is the number of elements in array and value is the value to search for
+    - Your function must return the first index where value is located
+    - You can assume that array will be sorted in ascending order
+    - If value is not present in array or if array is NULL, your function must return -1
+    - You have to use powers of 2 as exponential ranges to search in your array
+    - Every time you compare a value in the array to the value you are searching for, you have to print this value (See example)
+    - Once you’ve found the good range, you need to use a binary search:
+    - Every time you split the array, you have to print the new array (or subarray) you’re searching in
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/103-main.c 103-exponential.c -o 103-exponential
+  - `Expected output:`
+<pre><code>
 </code></pre>
 
 
