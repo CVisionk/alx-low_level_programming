@@ -12,46 +12,24 @@
  * Return: return the index where value is located, 0 otherwise
  */
 
-int advanced_binary_helper(int *array, size_t size, int value)
+int advanced_binary_helper(int *array, size_t left, size_t right, int value)
 {
-	size_t low = 0;
-	size_t high = size - 1;
-	size_t i, mid;
-	int temp = -1;
+	size_t i;
 
-	if (array == NULL)
+	if (right < left)
 		return (-1);
 
 	printf("Searching in array: ");
-	for (i = low; i < high; i++)
+	for (i = left; i < right; i++)
 		printf("%d, ", array[i]);
-	printf("%d\n", array[high]);
+	printf("%d\n", array[i]);
 
-	if (high == low)
-		return (-1);
-
-	mid = low + (high - low) / 2;
-
-	if (array[mid] == value)
-	{
-		temp = mid;
-		if (array[mid] == array[mid - 1])
-		{
-			temp = advanced_binary_helper(array, mid + 1, value);
-		}
-		return (temp);
-	}
-	else if (array[mid] > value)
-	{
-		temp = advanced_binary_helper(array, mid - 1, value);
-		return (temp == -1 ? temp : temp + ((int)mid - 1));
-	}
-	else
-	{
-		temp = advanced_binary_helper(&array[mid + 1], size - (mid + 1), value);
-		return (temp == -1 ? temp : temp + ((int)mid + 1));
-	}
-	return (-1);
+	i = left + (right - left) / 2;
+	if (array[i] == value && (i == left || array[i - 1] != value))
+		return (i);
+	if (array[i] >= value)
+		return (advanced_binary_helper(array, left, i, value));
+	return (advanced_binary_helper(array, i + 1, right, value));
 }
 
 /**
@@ -65,5 +43,8 @@ int advanced_binary_helper(int *array, size_t size, int value)
 
 int advanced_binary(int *array, size_t size, int value)
 {
-	return (advanced_binary_helper(array, size, value));
+	if (array == NULL || size == 0)
+		return (-1);
+
+	return (advanced_binary_helper(array, 0, size - 1, value));
 }
