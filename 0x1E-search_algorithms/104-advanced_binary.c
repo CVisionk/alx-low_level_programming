@@ -4,10 +4,11 @@
 #include "search_algos.h"
 
 /**
- * advanced_binary - function that searches for a value in a sorted
+ * advanced_binary_helper - function that searches for a value in a sorted
  *				 array of integers using the recursive Binary search
  * @array: pointer to the first element of the array to search in
- * @size: number of elements in array
+ * @left: lower bound
+ * @right: upper bound
  * @value: value to search for
  * Return: return the index where value is located, 0 otherwise
  */
