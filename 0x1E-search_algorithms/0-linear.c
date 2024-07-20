@@ -1,6 +1,6 @@
 /*
  * File: 0-linear.c
- * Auth: Brennan D Baraban
+ * Auth: Collen Khoza
  */
 
 #include <stdio.h>
@@ -21,17 +21,19 @@
   */
 int linear_search(int *array, size_t size, int value)
 {
-	size_t i;
+	size_t index;
 
 	if (array == NULL)
 		return (-1);
 
-	for (i = 0; i < size; i++)
+	for (index = 0; index < size; index++)
 	{
-		printf("Value checked array[%ld] = [%d]\n", i, array[i]);
-		if (array[i] == value)
-			return (i);
+		printf("Value checked array[%ld] = [%d]\n",
+		index, array[index]);
+		if (array[index] == value)
+		{
+			return (index);
+		}
 	}
-
 	return (-1);
 }
