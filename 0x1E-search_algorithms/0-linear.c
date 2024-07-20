@@ -1,3 +1,8 @@
+/*
+ * File: 104-advanced_binary.c
+ * Auth: Collen Khoza
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "search_algos.h"
