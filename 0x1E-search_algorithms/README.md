@@ -182,6 +182,21 @@ collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorith
 <pre><code>
 </code></pre>
 
+- **11. Advanced binary search**
+  - You may have noticed that the basic binary search does not necessarily return the index of the first value in the array (if this value appears more than once in the array). In this exercise, you’ll have to solve this problem.Write a function that searches for a value in a sorted array of integers.
+    - Prototype : int advanced_binary(int *array, size_t size, int value);
+    - Where array is a pointer to the first element of the array to search in
+    - size is the number of elements in array and value is the value to search for
+    - Your function must return the index where value is located
+    - You can assume that array will be sorted in ascending order
+    - If value is not present in array or if array is NULL, your function must return -1
+    - Every time you split the array, you have to print the new array (or subarray) you’re searching in (See example)
+    - You have to use recursion. You may only use one loop (while, for, do while, etc.) in order to print the array
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/104-main.c 104-advanced_binary.c -o 104-advanced_binary
+  - `Expected output:`
+<pre><code>
+</code></pre>
+
 
 
 
