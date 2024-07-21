@@ -180,6 +180,34 @@ collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorith
   - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/103-main.c 103-exponential.c -o 103-exponential
   - `Expected output:`
 <pre><code>
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/103-main.c 103-exponential.c -o 103-exponential
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$ ./103-exponential
+Value checked array[1] = [1]
+Value checked array[2] = [2]
+Value checked array[4] = [4]
+Value checked array[8] = [18]
+Value found between indexes [8] and [15]
+Searching in array: 18, 19, 23, 54, 61, 62, 76, 99
+Searching in array: 61, 62, 76, 99
+Found 62 at index: 13
+
+Value checked array[1] = [1]
+Value checked array[2] = [2]
+Value found between indexes [2] and [4]
+Searching in array: 2, 3, 4
+Found 3 at index: 3
+
+Value checked array[1] = [1]
+Value checked array[2] = [2]
+Value checked array[4] = [4]
+Value checked array[8] = [18]
+Value found between indexes [8] and [15]
+Searching in array: 18, 19, 23, 54, 61, 62, 76, 99
+Searching in array: 61, 62, 76, 99
+Searching in array: 76, 99
+Searching in array: 99
+Found 999 at index: -1
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$
 </code></pre>
 
 - **11. Advanced binary search**
@@ -195,7 +223,63 @@ collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorith
   - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/104-main.c 104-advanced_binary.c -o 104-advanced_binary
   - `Expected output:`
 <pre><code>
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/104-main.c 104-advanced_binary.c -o 104-advanced_binary
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$ ./104-advanced_binary
+Searching in array: 0, 1, 2, 5, 5, 6, 6, 7, 8, 9
+Searching in array: 6, 6, 7, 8, 9
+Searching in array: 8, 9
+Found 8 at index: 8
+
+Searching in array: 0, 1, 2, 5, 5, 6, 6, 7, 8, 9
+Searching in array: 0, 1, 2, 5, 5
+Searching in array: 5, 5
+Found 5 at index: 3
+
+Searching in array: 0, 1, 2, 5, 5, 6, 6, 7, 8, 9
+Searching in array: 6, 6, 7, 8, 9
+Searching in array: 8, 9
+Searching in array: 9
+Found 999 at index: -1
+collenk@LAPTOP-QU24OQM9:~/000-ALX/alx-low_level_programming/0x1E-search_algorithms$
 </code></pre>
+
+- **12. Jump search in a singly linked list**
+  - You might think that linear search is not as effective as any other algorithm, right? Well, we should see what happens with a singly linked list.
+  - Write a function that searches for a value in a sorted list of integers using the Jump search algorithm.
+    - Prototype : listint_t *jump_list(listint_t *list, size_t size, int value);
+    - Where list is a pointer to the head of the list to search in
+    - size is the number of nodes in list and value is the value to search for
+    - Your function must return a pointer to the first node where value is located
+    - You can assume that list will be sorted in ascending order
+    - If value is not present in head or if head is NULL, your function must return NULL
+    - You have to use the square root of the size of the list as the jump step.
+    - You can use the sqrt() function included in <math.h> (don’t forget to compile with -lm)
+    - Every time you compare a value in the list to the value you are searching, you have to print this value
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/105-main.c 105-jump_list.c listint/*.c -lm -o 105-jump
+  - `Expected output:`
+<pre><code>
+</code></pre>
+
+- **12. Jump search in a singly linked list**
+  - You might think that linear search is not as effective as any other algorithm, right? Well, we should see what happens with a singly linked list. Define the following data structure in your search_algos.h header file:
+  - Write a function that searches for a value in a sorted list of integers using the Jump search algorithm.
+    - Prototype : listint_t *jump_list(listint_t *list, size_t size, int value);
+    - Where list is a pointer to the head of the list to search in
+    - size is the number of nodes in list and value is the value to search for
+    - Your function must return a pointer to the first node where value is located
+    - You can assume that list will be sorted in ascending order
+    - If value is not present in head or if head is NULL, your function must return NULL
+    - You have to use the square root of the size of the list as the jump step.
+    - You can use the sqrt() function included in <math.h> (don’t forget to compile with -lm)
+    - Every time you compare a value in the list to the value you are searching, you have to print this value
+  - `Compiled using:` gcc -Wall -Wextra -Werror -pedantic -std=gnu89 tests/106-main.c 106-linear_skip.c skiplist/*.c -lm -o 106-linear
+  - `Expected output:`
+<pre><code>
+</code></pre>
+
+
+
+
 
 
 
